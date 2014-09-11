@@ -197,17 +197,83 @@
 	z-index:99999;
 }
 
-#recovery {
-  background: none repeat scroll 0 0 #fff;
-  color: #6c7a89;
-  font-family: "Montserrat",sans-serif;
-  font-size: 22px;
-  letter-spacing: -2px;
-  padding: 15px;
-  position: fixed;
-  right: 10px;
-  top: 50%;
-  z-index: 9999;
-  border-radius: 3px;
-  box-shadow: 0 0 0 3px rgba(50, 50, 50, 0.3);
+#rightcontainer{
+	position: fixed;
+	right: 10px;
+	top: 50%;
+	z-index: 9999;
 }
+
+#botstats, #botlog {
+	background: none repeat scroll 0 0 #fff;
+	color: #6c7a89;
+	font-family: "Montserrat",sans-serif;
+	font-size: 22px;
+	letter-spacing: -2px;
+	padding: 15px;
+	border-radius: 3px;
+	box-shadow: 0 0 0 3px rgba(50, 50, 50, 0.3);
+	margin-bottom: 20px;
+}
+
+.progressbg {
+	box-shadow: inset 2px 2px 2px 0px rgba(0,0,0,0.4);
+	background:#EDEDED; 
+	border-radius:30px; 
+	display: inline-block; 
+	height:14px;
+	width: 250px; 
+}
+
+.progress1{
+	background: -moz-linear-gradient(top, #f45a81 0%, #f62459 100%);
+	border-radius: 20px;
+	display: block;
+	height:14px;
+}
+
+.progress2{
+	background: -moz-linear-gradient(top, #4ba0d8 0%, #3498db 100%);
+	border-radius: 20px;
+	display: block;
+	height:14px;
+}
+ 
+.progresslabel{
+	font-size: 18px;
+	line-height: 14px;
+	margin-left: 15px;
+}
+
+.botoverlay{
+	background: rgba(0, 0, 0, 0.85);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 99999;
+}
+
+.botoverlaytext{
+	font-family: "Montserrat",sans-serif;
+	color: #fff;
+	font-size: 72px;
+	letter-spacing: -10px;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+}
+
+
+
+.progress2{
+display: block; background: -moz-linear-gradient(top, #4ba0d8 0%, #3498db 100%);
+ border-radius: 20px;  height:14px;
+ }
+ 
+.progresslabel{
+font-size:18px; line-height: 14px; margin-left: 15px;
+}
+
